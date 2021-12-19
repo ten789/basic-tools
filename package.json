@@ -12,15 +12,21 @@
       "require": ".dist/basic-tools.umd.js"
     }
   },
-  "bin": {},
+  "bin": {
+    "bt": ".dist/basic-tools.umd.js"
+  },
   "scripts": {
-    "build": "vite build"
+    "build": "vite build --config vite.config.ts",
+    "bt": "node .dist/basic-tools.umd.js"
   },
   "dependencies": {
     "koa": "^2.13.4",
+    "minimist": "^1.2.5",
     "vite": "^2.7.3"
   },
   "devDependencies": {
-    "@types/koa": "^2.13.4"
+    "@types/koa": "^2.13.4",
+    "@types/minimist": "^1.2.2",
+    "typescript": "^4.5.4"
   }
 }
