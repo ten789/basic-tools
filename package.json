@@ -8,8 +8,8 @@
   "license": "MIT",
   "exports": {
     ".": {
-      "import": ".dist/basic-tools.es.js",
-      "require": ".dist/basic-tools.umd.js"
+      "import": "dist/basic-tools.es.js",
+      "require": "dist/basic-tools.umd.js"
     }
   },
   "bin": {
